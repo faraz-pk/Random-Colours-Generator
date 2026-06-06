@@ -1,5 +1,5 @@
 for (let index = 0; index < 100; index++) {
-    document.querySelector('body').innerHTML += `<div class="container"></div>`;
+    document.querySelector('.wrapper').innerHTML += `<div class="container"></div>`;
 }
 
 let containerEls = document.querySelectorAll('.container');
