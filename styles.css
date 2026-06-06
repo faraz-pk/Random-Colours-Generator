@@ -15,6 +15,10 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
 }
 
+p {
+    text-align: center;
+}
+
 .container {
     border: 2px solid black;
     display: flex;
